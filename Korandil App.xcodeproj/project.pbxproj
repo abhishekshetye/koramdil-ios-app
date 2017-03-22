@@ -8,13 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		469736151E829F69005AEE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736141E829F69005AEE30 /* AppDelegate.swift */; };
-		469736171E829F69005AEE30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736161E829F69005AEE30 /* FirstViewController.swift */; };
-		469736191E829F6A005AEE30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736181E829F6A005AEE30 /* SecondViewController.swift */; };
+		469736171E829F69005AEE30 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736161E829F69005AEE30 /* TechnologyViewController.swift */; };
+		469736191E829F6A005AEE30 /* AdvantagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736181E829F6A005AEE30 /* AdvantagesViewController.swift */; };
 		4697361C1E829F6A005AEE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4697361A1E829F6A005AEE30 /* Main.storyboard */; };
 		4697361E1E829F6A005AEE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4697361D1E829F6A005AEE30 /* Assets.xcassets */; };
 		469736211E829F6A005AEE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4697361F1E829F6A005AEE30 /* LaunchScreen.storyboard */; };
 		4697362C1E829F6A005AEE30 /* Korandil_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697362B1E829F6A005AEE30 /* Korandil_AppTests.swift */; };
 		469736371E829F6B005AEE30 /* Korandil_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736361E829F6B005AEE30 /* Korandil_AppUITests.swift */; };
+		469736471E82A0F8005AEE30 /* button_advantages.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736441E82A0F8005AEE30 /* button_advantages.png */; };
+		469736481E82A0F8005AEE30 /* button_ce.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736451E82A0F8005AEE30 /* button_ce.png */; };
+		469736491E82A0F8005AEE30 /* button_tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736461E82A0F8005AEE30 /* button_tech.png */; };
+		4697364B1E82A16F005AEE30 /* CriticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697364A1E82A16F005AEE30 /* CriticalViewController.swift */; };
+		4697364D1E82A18F005AEE30 /* BlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697364C1E82A18F005AEE30 /* BlankViewController.swift */; };
+		4697364F1E82A429005AEE30 /* Button Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697364E1E82A429005AEE30 /* Button Home.png */; };
+		469736531E82AB44005AEE30 /* BG 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736521E82AB44005AEE30 /* BG 01.png */; };
+		469736551E82AC16005AEE30 /* button_ref.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736541E82AC16005AEE30 /* button_ref.png */; };
+		469736591E82AD24005AEE30 /* Button Advantages Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736561E82AD24005AEE30 /* Button Advantages Highlighted.png */; };
+		4697365A1E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736571E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png */; };
+		4697365B1E82AD24005AEE30 /* Button Technology Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736581E82AD24005AEE30 /* Button Technology Highlighted.png */; };
+		4697365E1E82B1FE005AEE30 /* Strip Polyamide Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697365C1E82B1FE005AEE30 /* Strip Polyamide Layer.png */; };
+		4697365F1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697365D1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png */; };
+		469736611E82B245005AEE30 /* Strip Polyolefin Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736601E82B245005AEE30 /* Strip Polyolefin Layer.png */; };
+		469736631E82B834005AEE30 /* Strip Aluminium Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736621E82B834005AEE30 /* Strip Aluminium Layer.png */; };
+		469736651E82BB9D005AEE30 /* Zoom Aluminium Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736641E82BB9D005AEE30 /* Zoom Aluminium Layer.png */; };
+		469736671E82BC2D005AEE30 /* Zoom Polyamide Layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736661E82BC2D005AEE30 /* Zoom Polyamide Layer.png */; };
+		4697366D1E82CA18005AEE30 /* Advantage 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736681E82CA18005AEE30 /* Advantage 01.png */; };
+		4697366E1E82CA18005AEE30 /* Advantage 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736691E82CA18005AEE30 /* Advantage 02.png */; };
+		4697366F1E82CA18005AEE30 /* Advantage 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697366A1E82CA18005AEE30 /* Advantage 03.png */; };
+		469736701E82CA18005AEE30 /* Multiple advantages over bottle pack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697366B1E82CA18005AEE30 /* Multiple advantages over bottle pack.png */; };
+		469736711E82CA18005AEE30 /* Strip Vertical View.png in Resources */ = {isa = PBXBuildFile; fileRef = 4697366C1E82CA18005AEE30 /* Strip Vertical View.png */; };
+		4697367A1E82CD19005AEE30 /* Documented safety across the IHD spectrum.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736721E82CD19005AEE30 /* Documented safety across the IHD spectrum.png */; };
+		4697367B1E82CD19005AEE30 /* Empowered for efficacy compliance and dependable outcomes.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736731E82CD19005AEE30 /* Empowered for efficacy compliance and dependable outcomes.png */; };
+		4697367C1E82CD19005AEE30 /* Rectangle AMI.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736741E82CD19005AEE30 /* Rectangle AMI.png */; };
+		4697367D1E82CD19005AEE30 /* Rectangle Stable Angina.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736751E82CD19005AEE30 /* Rectangle Stable Angina.png */; };
+		4697367E1E82CD19005AEE30 /* Rectangle Unstable Angina.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736761E82CD19005AEE30 /* Rectangle Unstable Angina.png */; };
+		4697367F1E82CD19005AEE30 /* Triangle AMI.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736771E82CD19005AEE30 /* Triangle AMI.png */; };
+		469736801E82CD19005AEE30 /* Triangle Stable Angina.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736781E82CD19005AEE30 /* Triangle Stable Angina.png */; };
+		469736811E82CD19005AEE30 /* Triangle Unstable Angina.png in Resources */ = {isa = PBXBuildFile; fileRef = 469736791E82CD19005AEE30 /* Triangle Unstable Angina.png */; };
+		469736831E82D21B005AEE30 /* korandil.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 469736821E82D1A6005AEE30 /* korandil.mp4 */; };
+		469736851E82D2F7005AEE30 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736841E82D2F7005AEE30 /* StartViewController.swift */; };
+		469736891E82D30B005AEE30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469736871E82D30B005AEE30 /* AVFoundation.framework */; };
+		4697368A1E82D30B005AEE30 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469736881E82D30B005AEE30 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +71,8 @@
 /* Begin PBXFileReference section */
 		469736111E829F69005AEE30 /* Korandil App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korandil App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		469736141E829F69005AEE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		469736161E829F69005AEE30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		469736181E829F6A005AEE30 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		469736161E829F69005AEE30 /* TechnologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
+		469736181E829F6A005AEE30 /* AdvantagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvantagesViewController.swift; sourceTree = "<group>"; };
 		4697361B1E829F6A005AEE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4697361D1E829F6A005AEE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469736201E829F6A005AEE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +83,40 @@
 		469736321E829F6B005AEE30 /* Korandil AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Korandil AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		469736361E829F6B005AEE30 /* Korandil_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korandil_AppUITests.swift; sourceTree = "<group>"; };
 		469736381E829F6B005AEE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469736441E82A0F8005AEE30 /* button_advantages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_advantages.png; sourceTree = "<group>"; };
+		469736451E82A0F8005AEE30 /* button_ce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ce.png; sourceTree = "<group>"; };
+		469736461E82A0F8005AEE30 /* button_tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tech.png; sourceTree = "<group>"; };
+		4697364A1E82A16F005AEE30 /* CriticalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticalViewController.swift; sourceTree = "<group>"; };
+		4697364C1E82A18F005AEE30 /* BlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankViewController.swift; sourceTree = "<group>"; };
+		4697364E1E82A429005AEE30 /* Button Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Home.png"; sourceTree = "<group>"; };
+		469736521E82AB44005AEE30 /* BG 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG 01.png"; sourceTree = "<group>"; };
+		469736541E82AC16005AEE30 /* button_ref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ref.png; sourceTree = "<group>"; };
+		469736561E82AD24005AEE30 /* Button Advantages Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Advantages Highlighted.png"; sourceTree = "<group>"; };
+		469736571E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Clinical Evidence Highlighted.png"; sourceTree = "<group>"; };
+		469736581E82AD24005AEE30 /* Button Technology Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Technology Highlighted.png"; sourceTree = "<group>"; };
+		4697365C1E82B1FE005AEE30 /* Strip Polyamide Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strip Polyamide Layer.png"; sourceTree = "<group>"; };
+		4697365D1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zoom Polyolefin Layer.png"; sourceTree = "<group>"; };
+		469736601E82B245005AEE30 /* Strip Polyolefin Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strip Polyolefin Layer.png"; sourceTree = "<group>"; };
+		469736621E82B834005AEE30 /* Strip Aluminium Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strip Aluminium Layer.png"; sourceTree = "<group>"; };
+		469736641E82BB9D005AEE30 /* Zoom Aluminium Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zoom Aluminium Layer.png"; sourceTree = "<group>"; };
+		469736661E82BC2D005AEE30 /* Zoom Polyamide Layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Zoom Polyamide Layer.png"; sourceTree = "<group>"; };
+		469736681E82CA18005AEE30 /* Advantage 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advantage 01.png"; sourceTree = "<group>"; };
+		469736691E82CA18005AEE30 /* Advantage 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advantage 02.png"; sourceTree = "<group>"; };
+		4697366A1E82CA18005AEE30 /* Advantage 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advantage 03.png"; sourceTree = "<group>"; };
+		4697366B1E82CA18005AEE30 /* Multiple advantages over bottle pack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Multiple advantages over bottle pack.png"; sourceTree = "<group>"; };
+		4697366C1E82CA18005AEE30 /* Strip Vertical View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strip Vertical View.png"; sourceTree = "<group>"; };
+		469736721E82CD19005AEE30 /* Documented safety across the IHD spectrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Documented safety across the IHD spectrum.png"; sourceTree = "<group>"; };
+		469736731E82CD19005AEE30 /* Empowered for efficacy compliance and dependable outcomes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empowered for efficacy compliance and dependable outcomes.png"; sourceTree = "<group>"; };
+		469736741E82CD19005AEE30 /* Rectangle AMI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle AMI.png"; sourceTree = "<group>"; };
+		469736751E82CD19005AEE30 /* Rectangle Stable Angina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle Stable Angina.png"; sourceTree = "<group>"; };
+		469736761E82CD19005AEE30 /* Rectangle Unstable Angina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle Unstable Angina.png"; sourceTree = "<group>"; };
+		469736771E82CD19005AEE30 /* Triangle AMI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Triangle AMI.png"; sourceTree = "<group>"; };
+		469736781E82CD19005AEE30 /* Triangle Stable Angina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Triangle Stable Angina.png"; sourceTree = "<group>"; };
+		469736791E82CD19005AEE30 /* Triangle Unstable Angina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Triangle Unstable Angina.png"; sourceTree = "<group>"; };
+		469736821E82D1A6005AEE30 /* korandil.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = korandil.mp4; sourceTree = "<group>"; };
+		469736841E82D2F7005AEE30 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		469736871E82D30B005AEE30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		469736881E82D30B005AEE30 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469736891E82D30B005AEE30 /* AVFoundation.framework in Frameworks */,
+				4697368A1E82D30B005AEE30 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +153,7 @@
 				4697362A1E829F6A005AEE30 /* Korandil AppTests */,
 				469736351E829F6B005AEE30 /* Korandil AppUITests */,
 				469736121E829F69005AEE30 /* Products */,
+				469736861E82D30B005AEE30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +170,9 @@
 		469736131E829F69005AEE30 /* Korandil App */ = {
 			isa = PBXGroup;
 			children = (
+				469736511E82AB25005AEE30 /* images */,
 				469736141E829F69005AEE30 /* AppDelegate.swift */,
-				469736161E829F69005AEE30 /* FirstViewController.swift */,
-				469736181E829F6A005AEE30 /* SecondViewController.swift */,
+				469736501E82AB1D005AEE30 /* Controllers */,
 				4697361A1E829F6A005AEE30 /* Main.storyboard */,
 				4697361D1E829F6A005AEE30 /* Assets.xcassets */,
 				4697361F1E829F6A005AEE30 /* LaunchScreen.storyboard */,
@@ -126,6 +197,63 @@
 				469736381E829F6B005AEE30 /* Info.plist */,
 			);
 			path = "Korandil AppUITests";
+			sourceTree = "<group>";
+		};
+		469736501E82AB1D005AEE30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				469736841E82D2F7005AEE30 /* StartViewController.swift */,
+				4697364C1E82A18F005AEE30 /* BlankViewController.swift */,
+				469736161E829F69005AEE30 /* TechnologyViewController.swift */,
+				469736181E829F6A005AEE30 /* AdvantagesViewController.swift */,
+				4697364A1E82A16F005AEE30 /* CriticalViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		469736511E82AB25005AEE30 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				469736821E82D1A6005AEE30 /* korandil.mp4 */,
+				469736541E82AC16005AEE30 /* button_ref.png */,
+				469736721E82CD19005AEE30 /* Documented safety across the IHD spectrum.png */,
+				469736731E82CD19005AEE30 /* Empowered for efficacy compliance and dependable outcomes.png */,
+				469736741E82CD19005AEE30 /* Rectangle AMI.png */,
+				469736751E82CD19005AEE30 /* Rectangle Stable Angina.png */,
+				469736761E82CD19005AEE30 /* Rectangle Unstable Angina.png */,
+				469736771E82CD19005AEE30 /* Triangle AMI.png */,
+				469736781E82CD19005AEE30 /* Triangle Stable Angina.png */,
+				469736791E82CD19005AEE30 /* Triangle Unstable Angina.png */,
+				469736681E82CA18005AEE30 /* Advantage 01.png */,
+				469736691E82CA18005AEE30 /* Advantage 02.png */,
+				4697366A1E82CA18005AEE30 /* Advantage 03.png */,
+				4697366B1E82CA18005AEE30 /* Multiple advantages over bottle pack.png */,
+				4697366C1E82CA18005AEE30 /* Strip Vertical View.png */,
+				469736661E82BC2D005AEE30 /* Zoom Polyamide Layer.png */,
+				469736641E82BB9D005AEE30 /* Zoom Aluminium Layer.png */,
+				4697365D1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png */,
+				469736621E82B834005AEE30 /* Strip Aluminium Layer.png */,
+				469736601E82B245005AEE30 /* Strip Polyolefin Layer.png */,
+				4697365C1E82B1FE005AEE30 /* Strip Polyamide Layer.png */,
+				469736561E82AD24005AEE30 /* Button Advantages Highlighted.png */,
+				469736571E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png */,
+				469736581E82AD24005AEE30 /* Button Technology Highlighted.png */,
+				469736521E82AB44005AEE30 /* BG 01.png */,
+				469736441E82A0F8005AEE30 /* button_advantages.png */,
+				4697364E1E82A429005AEE30 /* Button Home.png */,
+				469736451E82A0F8005AEE30 /* button_ce.png */,
+				469736461E82A0F8005AEE30 /* button_tech.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		469736861E82D30B005AEE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469736871E82D30B005AEE30 /* AVFoundation.framework */,
+				469736881E82D30B005AEE30 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +363,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469736831E82D21B005AEE30 /* korandil.mp4 in Resources */,
+				4697366E1E82CA18005AEE30 /* Advantage 02.png in Resources */,
+				469736711E82CA18005AEE30 /* Strip Vertical View.png in Resources */,
+				469736491E82A0F8005AEE30 /* button_tech.png in Resources */,
+				469736481E82A0F8005AEE30 /* button_ce.png in Resources */,
 				469736211E829F6A005AEE30 /* LaunchScreen.storyboard in Resources */,
 				4697361E1E829F6A005AEE30 /* Assets.xcassets in Resources */,
+				4697364F1E82A429005AEE30 /* Button Home.png in Resources */,
+				4697365A1E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png in Resources */,
+				4697367A1E82CD19005AEE30 /* Documented safety across the IHD spectrum.png in Resources */,
+				469736651E82BB9D005AEE30 /* Zoom Aluminium Layer.png in Resources */,
+				469736671E82BC2D005AEE30 /* Zoom Polyamide Layer.png in Resources */,
+				469736471E82A0F8005AEE30 /* button_advantages.png in Resources */,
+				4697365E1E82B1FE005AEE30 /* Strip Polyamide Layer.png in Resources */,
+				4697365B1E82AD24005AEE30 /* Button Technology Highlighted.png in Resources */,
+				469736611E82B245005AEE30 /* Strip Polyolefin Layer.png in Resources */,
+				469736531E82AB44005AEE30 /* BG 01.png in Resources */,
 				4697361C1E829F6A005AEE30 /* Main.storyboard in Resources */,
+				4697367E1E82CD19005AEE30 /* Rectangle Unstable Angina.png in Resources */,
+				469736631E82B834005AEE30 /* Strip Aluminium Layer.png in Resources */,
+				469736701E82CA18005AEE30 /* Multiple advantages over bottle pack.png in Resources */,
+				4697367B1E82CD19005AEE30 /* Empowered for efficacy compliance and dependable outcomes.png in Resources */,
+				4697367D1E82CD19005AEE30 /* Rectangle Stable Angina.png in Resources */,
+				469736801E82CD19005AEE30 /* Triangle Stable Angina.png in Resources */,
+				4697367C1E82CD19005AEE30 /* Rectangle AMI.png in Resources */,
+				469736551E82AC16005AEE30 /* button_ref.png in Resources */,
+				4697366D1E82CA18005AEE30 /* Advantage 01.png in Resources */,
+				4697366F1E82CA18005AEE30 /* Advantage 03.png in Resources */,
+				469736591E82AD24005AEE30 /* Button Advantages Highlighted.png in Resources */,
+				469736811E82CD19005AEE30 /* Triangle Unstable Angina.png in Resources */,
+				4697365F1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png in Resources */,
+				4697367F1E82CD19005AEE30 /* Triangle AMI.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469736191E829F6A005AEE30 /* SecondViewController.swift in Sources */,
+				469736191E829F6A005AEE30 /* AdvantagesViewController.swift in Sources */,
 				469736151E829F69005AEE30 /* AppDelegate.swift in Sources */,
-				469736171E829F69005AEE30 /* FirstViewController.swift in Sources */,
+				4697364B1E82A16F005AEE30 /* CriticalViewController.swift in Sources */,
+				469736171E829F69005AEE30 /* TechnologyViewController.swift in Sources */,
+				4697364D1E82A18F005AEE30 /* BlankViewController.swift in Sources */,
+				469736851E82D2F7005AEE30 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
