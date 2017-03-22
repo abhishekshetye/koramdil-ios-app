@@ -184,6 +184,13 @@
                                             <constraint firstAttribute="width" constant="367" id="zLC-3J-E9L"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Polyolifin Layer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lb1-Fy-vUM">
+                                        <rect key="frame" x="37" y="199" width="181" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Strip Aluminium Layer.png" translatesAutoresizingMaskIntoConstraints="NO" id="uSI-Dc-v6h">
                                         <rect key="frame" x="37" y="0.0" width="280" height="73"/>
                                         <constraints>
@@ -191,6 +198,16 @@
                                             <constraint firstAttribute="width" constant="280" id="KYc-J4-XCg"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aluminium Layer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY5-dd-gLl">
+                                        <rect key="frame" x="346" y="26" width="138" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="138" id="Xaz-qZ-BIT"/>
+                                            <constraint firstAttribute="height" constant="21" id="hcS-DA-scA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -206,6 +223,8 @@
                                     <constraint firstItem="uSI-Dc-v6h" firstAttribute="leading" secondItem="SDR-gf-KWA" secondAttribute="leading" constant="37" id="eIa-Ce-A9z"/>
                                     <constraint firstItem="aVb-ef-vbo" firstAttribute="centerY" secondItem="SDR-gf-KWA" secondAttribute="centerY" id="fsL-70-L1J"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="309" id="jWg-ad-tud"/>
+                                    <constraint firstItem="PY5-dd-gLl" firstAttribute="leading" secondItem="uSI-Dc-v6h" secondAttribute="trailing" constant="29" id="l4j-aC-s1C"/>
+                                    <constraint firstItem="PY5-dd-gLl" firstAttribute="top" secondItem="SDR-gf-KWA" secondAttribute="top" constant="26" id="ler-Fc-hhW"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="len-wi-FWi" appends="YES" id="7ss-vb-rAY"/>
@@ -248,10 +267,12 @@
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="firstImage" destination="uSI-Dc-v6h" id="vfV-dI-FqM"/>
+                        <outlet property="firstLabel" destination="PY5-dd-gLl" id="nGU-Yk-Eq4"/>
                         <outlet property="holderImage" destination="p2j-Vl-LAT" id="vpt-kC-Ydt"/>
                         <outlet property="mainView" destination="SDR-gf-KWA" id="a5A-Y5-Ot8"/>
                         <outlet property="pageControl" destination="wRv-sW-DzP" id="ftG-Qj-2Xz"/>
                         <outlet property="secondImage" destination="aVb-ef-vbo" id="L40-6c-fuD"/>
+                        <outlet property="secondLabel" destination="lb1-Fy-vUM" id="mcD-Li-it8"/>
                         <outlet property="swipeOutlet" destination="len-wi-FWi" id="Ejm-Ec-Npe"/>
                     </connections>
                 </viewController>

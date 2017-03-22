@@ -10,6 +10,12 @@ import UIKit
 
 class TechnologyViewController: UIViewController {
 
+    
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    @IBOutlet weak var secondLabel: UILabel!
+    
+    
     @IBOutlet weak var firstImage: UIImageView!
     
     @IBOutlet weak var secondImage: UIImageView!
@@ -27,12 +33,14 @@ class TechnologyViewController: UIViewController {
         
         pageControl.numberOfPages = 4
         pageControl.currentPage = 0
+        firstLabel.isHidden = true
         i = 0
         firstTime()
         
     }
     
     private func firstTime(){
+        firstLabel.text = "Polyolifin Layer"
         self.firstImage.isHidden = true
         self.holderImage.isHidden = true
         var _ = Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (timer) in
@@ -43,9 +51,11 @@ class TechnologyViewController: UIViewController {
         }
     }
     
-    private func animStart(newImage: String, newHolderImage: String){
+    private func animStart(txt: String, newImage: String, newHolderImage: String){
         
         firstImage.image = UIImage(named: newImage)
+        
+        holderImage.isHidden = true
         
 //        //move it up
 //        UIView.animate(withDuration: 0.2, animations: {
@@ -68,6 +78,8 @@ class TechnologyViewController: UIViewController {
             print("Out put is \(what)" )
             
             self.holderImage.image = UIImage(named: newHolderImage)
+            self.holderImage.isHidden = false
+            
             self.secondImage.image = UIImage(named: newImage)
             //set it back
             self.firstImage.isHidden = true
@@ -80,8 +92,33 @@ class TechnologyViewController: UIViewController {
                 //
                 //set it back
             }
-            
         }
+        
+        
+        
+        //**************//
+        //same with label
+        self.firstLabel.isHidden = false
+        self.firstLabel.text = txt
+        UIView.animate(withDuration: 1, animations: {
+            
+            self.firstLabel.transform = CGAffineTransform(translationX: 0, y: 110)
+            
+        }) { (what) in
+            //
+            
+            self.firstLabel.isHidden = true
+            self.secondLabel.text = txt
+            UIView.animate(withDuration: 0.1, animations: {
+                
+                self.firstLabel.transform = CGAffineTransform(translationX: 0, y: -100)
+                
+            }) { (what) in
+                //
+                //set it back
+            }
+        }
+
         
     }
     
@@ -101,6 +138,10 @@ class TechnologyViewController: UIViewController {
     }
     
     var i: Int = 0
+    
+    var texts = ["Polyolefin Layer", "Aluminium Layer", "Polyamide Layer", "dsaf"]
+    
+    
     var holders = ["Zoom Polyolefin Layer.png", "Zoom Aluminium Layer.png", "Zoom Polyamide Layer.png", "all"]
     
     var firstImgs = ["Strip Polyolefin Layer.png", "Strip Aluminium Layer.png", "Strip Polyamide Layer.png", "all"]
@@ -126,7 +167,7 @@ class TechnologyViewController: UIViewController {
             return
         }
         
-        animStart(newImage: firstImgs[i], newHolderImage: holders[i])
+        animStart(txt: texts[i], newImage: firstImgs[i], newHolderImage: holders[i])
         
         
     }
