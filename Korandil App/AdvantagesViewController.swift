@@ -10,6 +10,41 @@ import UIKit
 
 class AdvantagesViewController: UIViewController {
 
+    @IBOutlet weak var firstAdv: UIImageView!
+    
+    @IBOutlet weak var secondAdv: UIImageView!
+    
+    @IBOutlet weak var thirdAdv: UIImageView!
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        firstAdv.isHidden = true
+        secondAdv.isHidden = true
+        thirdAdv.isHidden = true
+        runAnim()
+    }
+    
+    
+    private func runAnim(){
+        var _ = Timer.scheduledTimer(withTimeInterval: 0.7, repeats: false) { (timer) in
+            
+            self.firstAdv.isHidden = false
+            
+            var _ = Timer.scheduledTimer(withTimeInterval: 0.7, repeats: false) { (timer) in
+                
+                self.secondAdv.isHidden = false
+                
+                var _ = Timer.scheduledTimer(withTimeInterval: 0.7, repeats: false) { (timer) in
+                    
+                    self.thirdAdv.isHidden = false
+                    
+                }
+                
+            }
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

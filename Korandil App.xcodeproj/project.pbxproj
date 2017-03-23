@@ -49,6 +49,8 @@
 		469736851E82D2F7005AEE30 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469736841E82D2F7005AEE30 /* StartViewController.swift */; };
 		469736891E82D30B005AEE30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469736871E82D30B005AEE30 /* AVFoundation.framework */; };
 		4697368A1E82D30B005AEE30 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469736881E82D30B005AEE30 /* AVKit.framework */; };
+		46F6E3771E83E5200074405E /* techlabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F6E3761E83E5200074405E /* techlabel.png */; };
+		46F6E3791E83E5790074405E /* Strip Shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F6E3781E83E5790074405E /* Strip Shadow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,8 @@
 		469736841E82D2F7005AEE30 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		469736871E82D30B005AEE30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		469736881E82D30B005AEE30 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		46F6E3761E83E5200074405E /* techlabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = techlabel.png; sourceTree = "<group>"; };
+		46F6E3781E83E5790074405E /* Strip Shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Strip Shadow.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 		469736511E82AB25005AEE30 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				46F6E3781E83E5790074405E /* Strip Shadow.png */,
+				46F6E3761E83E5200074405E /* techlabel.png */,
 				469736821E82D1A6005AEE30 /* korandil.mp4 */,
 				469736541E82AC16005AEE30 /* button_ref.png */,
 				469736721E82CD19005AEE30 /* Documented safety across the IHD spectrum.png */,
@@ -371,6 +377,7 @@
 				469736211E829F6A005AEE30 /* LaunchScreen.storyboard in Resources */,
 				4697361E1E829F6A005AEE30 /* Assets.xcassets in Resources */,
 				4697364F1E82A429005AEE30 /* Button Home.png in Resources */,
+				46F6E3771E83E5200074405E /* techlabel.png in Resources */,
 				4697365A1E82AD24005AEE30 /* Button Clinical Evidence Highlighted.png in Resources */,
 				4697367A1E82CD19005AEE30 /* Documented safety across the IHD spectrum.png in Resources */,
 				469736651E82BB9D005AEE30 /* Zoom Aluminium Layer.png in Resources */,
@@ -393,6 +400,7 @@
 				4697366F1E82CA18005AEE30 /* Advantage 03.png in Resources */,
 				469736591E82AD24005AEE30 /* Button Advantages Highlighted.png in Resources */,
 				469736811E82CD19005AEE30 /* Triangle Unstable Angina.png in Resources */,
+				46F6E3791E83E5790074405E /* Strip Shadow.png in Resources */,
 				4697365F1E82B1FE005AEE30 /* Zoom Polyolefin Layer.png in Resources */,
 				4697367F1E82CD19005AEE30 /* Triangle AMI.png in Resources */,
 			);
@@ -669,6 +677,7 @@
 				4697363D1E829F6B005AEE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4697363E1E829F6B005AEE30 /* Build configuration list for PBXNativeTarget "Korandil AppTests" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +686,7 @@
 				469736401E829F6B005AEE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		469736411E829F6B005AEE30 /* Build configuration list for PBXNativeTarget "Korandil AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +695,7 @@
 				469736431E829F6B005AEE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
